@@ -1,0 +1,100 @@
+.main-container{
+    display: flex;
+    height:100vh;
+}
+
+.bg-sk p{
+    color: #0D0D0D !important;
+    font-weight: 600;
+    font-size: 7vw;
+    width: 40%;
+    margin: 0;
+    z-index: -1;
+    position: absolute;
+    transform: translate(-28vw,10vw)rotate(270deg);   
+}
+
+.skills-container{
+    display: flex;
+    margin: 0 14vw;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.skills-main{
+    margin-left: 10%;
+    width:100%
+}
+
+.skills-tab{
+    margin-top: 8%;
+}
+
+.skill-bar{
+    margin-bottom: 2.2vw;
+}
+
+.skill-bar p{
+    margin-bottom: 2%;
+    font-size: 1vw;
+    letter-spacing:0.2vw;
+}
+
+.bar{
+    display: flex;
+    content: '';
+    width:100%;
+    height:0.55vw;
+    background-color: #e2e2e2;
+}
+
+.dev:before{
+    display: flex;
+    content:'';
+    width:90%;
+    height:0.55vw;
+    background:linear-gradient(to right,#0f85f3,#00ccff);
+    transition: all 0.5s ease;
+    animation: bar 1s ease;
+}
+
+.ux:before{
+    display: flex;
+    content:'';
+    width:80%;
+    height:0.55vw;
+    background:linear-gradient(to right,#0f85f3,#00ccff);
+    transition: all 0.5s ease;
+    animation: bar 1s ease;
+}
+
+.gfx::before{
+    display: flex;
+    content:'';
+    width:92%;
+    height:0.55vw;
+    background:linear-gradient(to right,#0f85f3,#00ccff);
+    animation: bar 1s ease;
+}
+
+.vfx::before{
+    display: flex;
+    content:'';
+    width:80%;
+    height:0.55vw;
+    background:linear-gradient(to right,#0f85f3,#00ccff);
+    animation: bar 1s ease;
+}
+
+@keyframes bar {
+    0%{
+        width:0%
+    }
+    100%{
+        width:100%
+    }
+}
+
+.about-img img{
+    width: 29vw;
+}

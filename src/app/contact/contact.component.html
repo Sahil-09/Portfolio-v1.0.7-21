@@ -1,0 +1,73 @@
+<div class="main-container">
+    <div class="contact-container">
+            <div class="main-title">
+                <div class="title">
+                    LET'S CONNECT
+                </div>
+                <div class="short-brief">
+                    Make something new and outof the box and turn ideas into real.
+                </div>
+            </div>
+        
+        <div class="main-contact">
+            <div class="my-info">
+                <div class="my-number">
+
+                    <div class="contact-icon">
+                        <img src="../../assets/Call.svg" alt="">
+                        <div class="detail">
+                            <div class="label">
+                                <p>Call me</p>
+                            </div>
+                            <div class="info">
+                                <p>+91 9768957932</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-icon">
+                        <img src="../../assets/Mail.svg" alt="">
+                        <div class="detail">
+                            <div class="label">
+                                <p>Email</p>
+                            </div>
+                            <div class="info">
+                                <p>patelsahil9768@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-icon">
+                        <img src="../../assets/Location.svg" alt="">
+                        <div class="detail">
+                            <div class="label">
+                                <p>Address</p>
+                            </div>
+                            <div class="info">
+                                <p>44 - Antophill, Maharashtra, Mumbai - 400037, INDIA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="contact-form">
+                <form [formGroup]="contactform" (ngSubmit)="submit(contactform.value)">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Enter your name" formControlName="name">
+                        <input type="number" name="number" placeholder="Enter your number" formControlName="number">
+                    </div> 
+                    <input type="email" name="email" placeholder="Enter your Email" formControlName="email">
+                    <textarea name="message" cols="30" rows="10" placeholder="Enter your message" formControlName="message"></textarea>
+                    <button type="submit" [disabled]="!contactform.valid">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="response-container">
+    <div class="response" id="response">
+        <p>{{message}}</p>
+    </div>
+</div>

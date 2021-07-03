@@ -1,0 +1,5 @@
+<div *ngFor="let a of (Names | async ).names">
+    {{a}}
+</div>
+<button (click)="Change()">NGRX</button>
+<button (click)="Clear()">Clear</button>

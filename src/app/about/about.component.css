@@ -1,0 +1,46 @@
+.bg-ab p{
+        display: flex;
+        color: #0D0D0D !important;
+        height: 100vh;
+        font-weight: 600;
+        font-size: 7vw;
+        z-index: -1;
+        margin-left: 3vw;
+        position: absolute;
+        writing-mode: vertical-rl;
+        justify-content: center;
+}
+
+.about-container{
+    display: flex;
+    margin: 0 14vw;
+    margin-top: 10%;
+}
+
+.brief p{
+    margin-top: 4%;
+    width:82%;
+    font-size: 1vw;
+    font-weight: 300;
+    line-height: 175%;
+    letter-spacing: 0.12vw;
+}
+
+.about-main{
+    margin-top: 6%;
+}
+
+.about-img img{
+    width:15vw;
+    transition:all 0.5s ease;
+}
+
+.about-img img:hover{
+    transform: translateY(-12px);
+    border-bottom: 8px solid #F30F46;
+}
+
+.main-container{
+    display: flex;
+    height:100vh;
+}

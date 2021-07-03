@@ -1,0 +1,199 @@
+li{
+    list-style: none;
+    font-size: 0.95vw;
+}
+
+.main-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    gap:2%;
+    padding:0;
+    margin-bottom: 5%;
+}
+
+
+.bg-wk p{
+    display: flex;
+    color: #0D0D0D !important;
+    height: 100vh;
+    font-weight: 600;
+    font-size: 7vw;
+    z-index: -1;
+    margin-left: 3vw;
+    position: absolute;
+    writing-mode: vertical-rl;
+    justify-content: center;
+}
+
+.preview{
+    display: grid;
+    grid-template-rows: 33% 67%;
+    gap:1vw;
+}
+
+.row-1{
+    display: flex;
+    gap:1vw
+}
+
+.row-col1{
+    width: 24.68vw;
+    height:9.8vw;
+    background: #3c3c3c;
+    overflow: hidden;
+}
+
+.row-col1 img{
+    width: 26vw;
+    height:10vw;
+    object-fit: cover;
+}
+
+.row-col2{
+    height:9.8vw;
+    width:9.8vw;
+    overflow: hidden;
+    background: #3c3c3c;
+}
+
+.row-col2 img{
+    height:9.8vw;
+    width:9.8vw;
+    object-fit: cover;
+}
+img{
+    transition:all 0.5s ease;
+}
+img:hover{
+    filter: brightness(1.3);
+    transform: scale(1.1);
+}
+
+.row-col3{
+    width: 24.48vw;
+    height:9.8vw;
+    background: #3c3c3c;
+    overflow: hidden;
+}
+
+.row-col3 img{
+    width: 24.5vw;
+    height:9.8vw;
+    object-fit: cover;
+}
+
+.row-2{
+    display: flex;
+    gap: 1vw;
+    width: 61vw;
+    flex-direction: row;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    width: 16.6vw;
+    gap: 1vw;
+}
+
+
+.column-2{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    gap: 1vw;
+}
+
+
+.column-3{
+    display: flex;
+    flex-direction: column;
+    width: 22.5vw;
+    gap: 1vw;
+}
+
+
+
+
+.c1-r2,.c1-r2 img{
+    background: #3c3c3c;
+    height: 4.76vw;
+    overflow: hidden;
+}
+
+.c1-r1,.c1-r1 img{
+    background: #3c3c3c;
+    height: 12.9vw;
+    overflow: hidden;
+}
+
+.c2-r1,.c2-r1 img{
+    background: #3c3c3c;
+    height: 11.5vw;
+    overflow: hidden;
+}
+
+.c2-r2,.c2-r2 img {
+    background: #3c3c3c;
+    height: 6.2vw;
+    overflow: hidden;
+}
+
+.c3-r1{
+    background: #3c3c3c;
+    height: 10.5vw;
+    overflow: hidden;
+}
+.c3-r1 img{
+    height:11vw
+}
+
+.c3-r2 {
+    background: #3c3c3c;
+    height: 7.1vw;
+    overflow: hidden;
+}
+
+.c3-r2 img{
+    height: 8vw;
+}
+
+
+
+
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-main-container{
+    display: flex;
+    margin: 0 14vw;
+    height:100vh;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+
+
+
+
+.cat{
+width: 100%;
+}
+
+.cat ul{
+    display: flex;
+    gap: 6%;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+}

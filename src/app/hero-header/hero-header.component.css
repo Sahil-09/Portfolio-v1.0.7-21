@@ -1,0 +1,139 @@
+.hero-container{
+    display:flex;
+    width: 100%;
+}
+
+.img-container{
+    background-image: url("../../assets/Sahil main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height:50vw;
+    animation: up 6s ease infinite;
+}
+
+@keyframes up {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.s-title{
+    font-size: 1.5vw;
+}
+
+.L-title{
+    font-size: 4.5vw;
+    font-weight:600;
+    letter-spacing: 0.9vw;
+}
+
+.s-brief{
+    font-weight: 300;
+    width:80%;
+    letter-spacing: 0.05vw;
+    font-size: 0.95vw;
+}
+
+.main-info{
+    margin-top: 10%;
+}
+
+.head-btn{
+    display: flex;
+    gap: 1.6vw;
+    margin-top: 2vw;
+}
+
+.bg-img{
+    width:38vw;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.cv-btn{
+    font-family: 'Poppins';
+    cursor: pointer;
+    background-color: #F30F46;;
+    border: 0.12vw solid #F30F46;
+    color: #EFEFEF;
+    font-size: 1.2vw;
+    padding:0.50vw 1.6vw;
+    transition: 0.5s ease all;
+}
+
+.cv-btn:hover{
+    filter: drop-shadow(0px 0px 20px #F30F46);
+}
+
+.work-btn{
+    font-family: 'Poppins';
+    cursor: pointer;
+    background: none;
+    color: #EFEFEF;
+    border: 0.12vw solid #F30F46;
+    font-size: 1.2vw;
+    padding:0.50vw 1.6vw;
+    transition: 0.5s ease all;
+}
+
+.work-btn:hover{
+    filter: drop-shadow(0px 0px 20px #F30F46);
+    background-color: #F30F46;
+    
+}
+
+.main-container{
+    margin: 0 1.5vw;
+}
+
+.social-container{
+    display: flex;
+    margin-top: 13%;
+    width: 10%;
+    z-index: 2;
+    justify-content: center;
+}
+
+.social-img img{
+    width: 1.2vw;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 1.5vw;
+    transition: 0.5s ease all;
+}
+
+.social-img img:hover{
+    filter: brightness(1.8);
+}
+
+.discord img{
+    margin:0;
+    margin-bottom: 0.61vw;
+}
+
+.discord:hover::after{
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    content: "Kraddy#2754";
+    background: rgb(49, 49, 49);
+    padding: 0.41vw;
+    font-size: 0.75vw;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width:1024px) {
+    .img-container{
+        
+    }
+}

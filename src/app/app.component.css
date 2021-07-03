@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    float: right;
+    font-weight: 300;
+    gap: 3vw;
+    font-size: 0.81vw;
+    letter-spacing: 0.15vw;
+    list-style: none;
+    margin: 0;
+    padding: 1.2vw;
+    padding-right: 4.5vw;
+}
+
+.nav-container{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #090909;
+    width:100%;
+    height: 3.5vw;
+    transition: 0.5s ease all;
+}
+
+.nav-item a{
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.nav-item a:hover{
+    color: #F30F46;
+}
+
+
+
+
+footer{
+    letter-spacing:0.21vw;
+    padding-bottom: 1vw;
+}
+
+.center{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+
+section{
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}

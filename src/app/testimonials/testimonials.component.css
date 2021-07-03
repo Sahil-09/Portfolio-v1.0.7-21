@@ -1,0 +1,96 @@
+.main-container {
+  display: flex;
+  margin: 0 14vw;
+  height: 100vh;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.tstm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brief {
+  font-weight: 300;
+  font-size: 1.2vw;
+  letter-spacing: 0.2vw;
+}
+
+.card-container {
+    height: 12vw;
+    width: 100%;
+    display: flex;
+    gap: 1vw;
+}
+
+
+.container{
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap:1vw;
+}
+
+
+.card {
+    height: 12vw;
+    width: 50%;
+    background: #131313; 
+}
+
+.c-img {
+  height: 80%;
+ 
+}
+
+.fd {
+  height: 20%;
+}
+
+.main-name{
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.61vw;
+}
+
+
+.message{
+  font-size: 0.75vw;
+  font-weight: 300;
+  padding: 0 1.2vw;
+  font-style: italic;
+}
+
+
+.more{
+  margin-top: 20px;;
+  display: flex;
+  width:100%;
+  justify-content: flex-end;
+}
+
+
+.bg-img{
+  display: flex;
+  position: absolute;
+  width:44vw;
+  z-index: -1;
+  left: 0;
+  filter: opacity(100%);
+}
+
+.rating{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 20px;
+
+}
+
+.rat-cont img{
+  width:14px;
+  margin-right:6px;
+}
